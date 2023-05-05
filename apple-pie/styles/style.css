@@ -22,3 +22,59 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portada {
+  width:1300px;
+  height:800px;
+}
+
+ol {  
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+
+ul { 
+  list-style:"- ";
+}
+
+li {
+  margin-left: 20px;
+}
+
+.recipe {
+margin: 90px;
+} 
+
+ h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+ }
+
+ img {
+  display:block;
+  margin: 0 auto;
+ }
+
+ .tama {
+ height: 60px;
+ }
